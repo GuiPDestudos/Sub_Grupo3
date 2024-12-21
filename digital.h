@@ -1,24 +1,24 @@
-float b_kb(float byte){
+double b_kb(double byte){
    return byte/1024;
 };
 
-float b_mb(float byte){
+double b_mb(double byte){
     return byte/1048576;
 };
 
-float kb_B(float kilo_byte){
+double kb_b(double kilo_byte){
     return kilo_byte*1024;
 };
 
-float kb_mb(float kilo_byte){
+double kb_mb(double kilo_byte){
     return kilo_byte/1024;
 };
 
-float mb_b(float mega_byte){
+double mb_b(double mega_byte){
     return mega_byte*1048576;
 };
 
-float mb_kb(float mega_byte){
+double mb_kb(double mega_byte){
     return mega_byte*1024;
 };
 
